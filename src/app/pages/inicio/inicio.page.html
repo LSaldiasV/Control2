@@ -1,0 +1,16 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>inicio</ion-title>
+  </ion-toolbar>
+
+  <ion-toolbar>
+    <ion-segment value="misdatos" (ionChange)="cambiarComponente($event)">
+      <ion-segment-button value="misdatos">
+        <ion-label>Mis Datos</ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="qr">
+        <ion-label>Qr</ion-label>
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+</ion-header>
